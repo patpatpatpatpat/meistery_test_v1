@@ -38,6 +38,7 @@ class Migration(migrations.Migration):
 
     dependencies = [
         ("sales", "0002_alter_sale_user"),
+        ("users", "0004_auto_20210417_0453"),
     ]
 
     operations = [
